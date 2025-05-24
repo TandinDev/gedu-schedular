@@ -13,6 +13,54 @@
   --color-primary-800: oklch(0.40 0.18 240);
   --color-primary-900: oklch(0.30 0.20 240);
 
+  /* Error Colors */
+  --color-error-50: oklch(0.98 0.02 25);
+  --color-error-100: oklch(0.95 0.04 25);
+  --color-error-200: oklch(0.90 0.06 25);
+  --color-error-300: oklch(0.85 0.08 25);
+  --color-error-400: oklch(0.80 0.10 25);
+  --color-error-500: oklch(0.70 0.12 25); /* Main error color */
+  --color-error-600: oklch(0.60 0.14 25);
+  --color-error-700: oklch(0.50 0.16 25);
+  --color-error-800: oklch(0.40 0.18 25);
+  --color-error-900: oklch(0.30 0.20 25);
+
+  /* Success Colors */
+  --color-success-50: oklch(0.98 0.02 145);
+  --color-success-100: oklch(0.95 0.04 145);
+  --color-success-200: oklch(0.90 0.06 145);
+  --color-success-300: oklch(0.85 0.08 145);
+  --color-success-400: oklch(0.80 0.10 145);
+  --color-success-500: oklch(0.70 0.12 145); /* Main success color */
+  --color-success-600: oklch(0.60 0.14 145);
+  --color-success-700: oklch(0.50 0.16 145);
+  --color-success-800: oklch(0.40 0.18 145);
+  --color-success-900: oklch(0.30 0.20 145);
+
+  /* Info Colors */
+  --color-info-50: oklch(0.98 0.02 200);
+  --color-info-100: oklch(0.95 0.04 200);
+  --color-info-200: oklch(0.90 0.06 200);
+  --color-info-300: oklch(0.85 0.08 200);
+  --color-info-400: oklch(0.80 0.10 200);
+  --color-info-500: oklch(0.70 0.12 200); /* Main info color */
+  --color-info-600: oklch(0.60 0.14 200);
+  --color-info-700: oklch(0.50 0.16 200);
+  --color-info-800: oklch(0.40 0.18 200);
+  --color-info-900: oklch(0.30 0.20 200);
+
+  /* Gray Colors */
+  --color-gray-50: oklch(0.98 0.00 0);
+  --color-gray-100: oklch(0.95 0.00 0);
+  --color-gray-200: oklch(0.90 0.00 0);
+  --color-gray-300: oklch(0.85 0.00 0);
+  --color-gray-400: oklch(0.80 0.00 0);
+  --color-gray-500: oklch(0.70 0.00 0); /* Main gray color */
+  --color-gray-600: oklch(0.60 0.00 0);
+  --color-gray-700: oklch(0.50 0.00 0);
+  --color-gray-800: oklch(0.40 0.00 0);
+  --color-gray-900: oklch(0.30 0.00 0);
+
   --color-secondary-50: oklch(0.98 0.02 180);
   --color-secondary-100: oklch(0.95 0.04 180);
   --color-secondary-200: oklch(0.90 0.06 180);

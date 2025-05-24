@@ -1,0 +1,554 @@
+[
+    {
+        "Name": "Ugyen Zangmo",
+        "Student ID": "3230409",
+        "Email ID": "03230409.gcbs@rub.edu.bt",
+        "CID": "10604002347",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Tenzin Dechen Wangmo",
+        "Student ID": "3230354",
+        "Email ID": "03230354.gcbs@rub.edu.bt",
+        "CID": "11410008560",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Tsheltrum Pelden",
+        "Student ID": "3230365",
+        "Email ID": "03230365.gcbs@rub.edu.bt",
+        "CID": "10801003167",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Tshering Wangmo",
+        "Student ID": "3230381",
+        "Email ID": "03230382.gcbs@rub.edu.bt",
+        "CID": "11214001097",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Tandin Wangmo",
+        "Student ID": "3230329",
+        "Email ID": "03230329.gcbs@rub.edu.bt",
+        "CID": "11008000078",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Tshering Dorji",
+        "Student ID": "3230372",
+        "Email ID": "03230372.gcbs@rub.edu.bt",
+        "CID": "11701003359",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Anjali Rai",
+        "Student ID": "3230003",
+        "Email ID": "03230003.gcbs@rub.edu.bt",
+        "CID": "10209003406",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Nima Lhamo",
+        "Student ID": "3230180",
+        "Email ID": "03230180.gcbs@rub.edu.bt",
+        "CID": "11312001059",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Sonam Lhadon",
+        "Student ID": "3230290",
+        "Email ID": "03230290.gcbs@rub.edu.bt",
+        "CID": "11512005272",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Phurpa Tshering ",
+        "Student ID": "3230233",
+        "Email ID": "03230233.gcbs@rub.edu.bt",
+        "CID": "11601002078",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Dawa Zam",
+        "Student ID": "3230039",
+        "Email ID": "03230039.gcbs@rub.edu.bt ",
+        "CID": "10204002428",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Tandin Wangchuk ",
+        "Student ID": "3240224",
+        "Email ID": "03240224.gcbs@rub.edu.bt",
+        "CID": "1180600234",
+        "Program ": "BBM",
+        "Year": "1"
+    },
+    {
+        "Name": "Sangay Dema",
+        "Student ID": "3240256",
+        "Email ID": "03240256.gcbs@rub.edu.bt",
+        "CID": "11102007444",
+        "Program ": "BBM",
+        "Year": "1"
+    },
+    {
+        "Name": "Tashi Tshering",
+        "Student ID": "3230343",
+        "Email ID": "03230343.gcbs@rub.edu.bt",
+        "CID": "10711003260",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Sonam Peldon",
+        "Student ID": "3230293",
+        "Email ID": "03230293.gcbs@rub.edu.bt ",
+        "CID": "10713002900",
+        "Program ": "BBI",
+        "Year": "2"
+    },
+    {
+        "Name": "Jubita Gurung ",
+        "Student ID": "3230093",
+        "Email ID": "03230093.gcbs@rub.edu.bt",
+        "CID": "11201005493",
+        "Program ": "BBI",
+        "Year": "2"
+    },
+    {
+        "Name": "Rupa Phuyal",
+        "Student ID": "3230248",
+        "Email ID": "03230248.gcbs@rub.edu.bt",
+        "CID": "11805002618",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Ongmith lepcha ",
+        "Student ID": "3230187",
+        "Email ID": "03230187.gcbs@rub.edu.bt",
+        "CID": "11213003511",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Sapna Dungana ",
+        "Student ID": "3230272",
+        "Email ID": "03230272.gcbs@rub.edu.bt",
+        "CID": "11206005572",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Sangay Lham",
+        "Student ID": "3240215",
+        "Email ID": "3240215.gcbs@rub.edu.bt",
+        "CID": "11802002017",
+        "Program ": "BMDC",
+        "Year": "1"
+    },
+    {
+        "Name": "Yoezer Dema ",
+        "Student ID": "3240437",
+        "Email ID": "03240437.gcbs@rub.edu.bt",
+        "CID": "10712002712",
+        "Program ": "BMDC",
+        "Year": "1"
+    },
+    {
+        "Name": "Dechen Wangmo ",
+        "Student ID": "3240207",
+        "Email ID": "03240107.gcbs@rub.edu.bt",
+        "CID": "11101002895",
+        "Program ": "BMDC",
+        "Year": "1"
+    },
+    {
+        "Name": "Puspa Pradhan",
+        "Student ID": "3230237",
+        "Email ID": "03230237.gcbs@rub.edu.bt",
+        "CID": "11811003868",
+        "Program ": "BMDC",
+        "Year": "2"
+    },
+    {
+        "Name": "Tshering Yangzom ",
+        "Student ID": "3220281",
+        "Email ID": "03220281.gcbs@rub.edu.bt",
+        "CID": "11603001550",
+        "Program ": "B.com FInance",
+        "Year": "3"
+    },
+    {
+        "Name": "Tshering Tenzin ",
+        "Student ID": "3220279",
+        "Email ID": "03220279.gcbs@rub.edu.bt",
+        "CID": "11302001024",
+        "Program ": "B.com FInance",
+        "Year": "3"
+    },
+    {
+        "Name": "Tsheltrim Zangpo",
+        "Student ID": "3220272",
+        "Email ID": "03220272.gcbs@rub.edu.bt",
+        "CID": "1604002438",
+        "Program ": "B.com finance",
+        "Year": "3"
+    },
+    {
+        "Name": "Soma Tamang ",
+        "Student ID": "3240158",
+        "Email ID": "03240158.gcbs@rub.edu.bt",
+        "CID": "11810002342",
+        "Program ": "BFE",
+        "Year": "1"
+    },
+    {
+        "Name": "Tashi Choden ",
+        "Student ID": "3230333",
+        "Email ID": "03230333.gcbs@rub.edu.bt",
+        "CID": "11701003358",
+        "Program ": "BHCM",
+        "Year": "2"
+    },
+    {
+        "Name": "Pema Dema",
+        "Student ID": "3240144",
+        "Email ID": "03240144.gcbs@rub.edu.bt ",
+        "CID": "11107007833",
+        "Program ": "BFE",
+        "Year": "1"
+    },
+    {
+        "Name": "Jigme Norbu",
+        "Student ID": "3230284",
+        "Email ID": "03230284.gcbs@rub.edu.bt",
+        "CID": "11410010910",
+        "Program ": "BMDC",
+        "Year": "2"
+    },
+    {
+        "Name": "Sonam Wangchuk ",
+        "Student ID": "3230433",
+        "Email ID": "03230433.gcbs@rub.edu.bt",
+        "CID": "11805002731",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Sandeep Rai",
+        "Student ID": "3230251",
+        "Email ID": "03230251.gcbs@rub.edu.bt",
+        "CID": "11214002237",
+        "Program ": "BMDC",
+        "Year": "2"
+    },
+    {
+        "Name": "Singye Zangmo ",
+        "Student ID": "3230277",
+        "Email ID": "03230277.gcbs@rub.edu.bt",
+        "CID": "10905004610",
+        "Program ": "BMDC ",
+        "Year": "2"
+    },
+    {
+        "Name": "Yeshey Tshogay",
+        "Student ID": "3240434",
+        "Email ID": "03240434.gcbs@rub.edu.bt",
+        "CID": "10310001045",
+        "Program ": "BBI",
+        "Year": "1"
+    },
+    {
+        "Name": "Dechen Pelmo ",
+        "Student ID": "3240193",
+        "Email ID": "03240193.gcbs@rub.edu.bt",
+        "CID": "10605003763",
+        "Program ": "BBM",
+        "Year": "1"
+    },
+    {
+        "Name": "Ugyel Tandin Wangmo ",
+        "Student ID": "3240430",
+        "Email ID": "03240430.gcbs@rub.edu.bt",
+        "CID": "10304004146",
+        "Program ": "BBI",
+        "Year": "1"
+    },
+    {
+        "Name": "Sonam Tshoki ",
+        "Student ID": "3240414",
+        "Email ID": "03240414.gcbs@rub.edu.bt",
+        "CID": "10601004767",
+        "Program ": "BBI",
+        "Year": "1"
+    },
+    {
+        "Name": "Tshering Samdrup",
+        "Student ID": "3240425",
+        "Email ID": "03240425.gcbs@rub.edu.bt",
+        "CID": "11510004765",
+        "Program ": "BBI",
+        "Year": "1"
+    },
+    {
+        "Name": "phurpa lhamo ",
+        "Student ID": "3240397",
+        "Email ID": "03240397.gcbs@rub.edu.bt",
+        "CID": "10703003356",
+        "Program ": "BBI",
+        "Year": "1"
+    },
+    {
+        "Name": "Rada Sangay Om",
+        "Student ID": "3240398",
+        "Email ID": "03240398.gcbs@rub.edu.bt",
+        "CID": "11903001389",
+        "Program ": "BBI",
+        "Year": "1"
+    },
+    {
+        "Name": "Nim Zam",
+        "Student ID": "3240387",
+        "Email ID": "03240387.gcbs@rub.edu.bt",
+        "CID": "11914002885",
+        "Program ": "BBI",
+        "Year": "1"
+    },
+    {
+        "Name": "sangay Choden ",
+        "Student ID": "3240403",
+        "Email ID": "03240403.gcbs@rub.edu.bt",
+        "CID": "10810002488",
+        "Program ": "BBI",
+        "Year": "1"
+    },
+    {
+        "Name": "Sangay Chodon",
+        "Student ID": "3240405",
+        "Email ID": "3240405.gcbs@rub.edu.bt",
+        "CID": "11603004686",
+        "Program ": "BBI ",
+        "Year": "1"
+    },
+    {
+        "Name": "Phurpa Lhamo ",
+        "Student ID": "3230232",
+        "Email ID": "03230232.gcbs@rub.edu.bt",
+        "CID": "11514005945",
+        "Program ": "BBI",
+        "Year": "2"
+    },
+    {
+        "Name": "Ravi Maya Gurung",
+        "Student ID": "3230239",
+        "Email ID": "03230239.gcbs@rub.edu.bt",
+        "CID": "11208002738",
+        "Program ": "BBI",
+        "Year": "2"
+    },
+    {
+        "Name": "Tshering Dendup",
+        "Student ID": "3230369",
+        "Email ID": "03230369.gcbs@rub.edu.bt",
+        "CID": "11516003461",
+        "Program ": "BMDC",
+        "Year": "2"
+    },
+    {
+        "Name": "Khandu Om ",
+        "Student ID": "3240128",
+        "Email ID": "03240128.gcbs@rub.edu.bt ",
+        "CID": "10503001829",
+        "Program ": "BFE",
+        "Year": "1"
+    },
+    {
+        "Name": "Sonam Tshomo ",
+        "Student ID": "3240167",
+        "Email ID": "03240167.gcbs@rub.edu.bt",
+        "CID": "10605003650",
+        "Program ": "BFE",
+        "Year": "1"
+    },
+    {
+        "Name": "Sonam Zangmo",
+        "Student ID": "3230060",
+        "Email ID": "03230060.gcbs@rub.edu.bt",
+        "CID": "10101006115",
+        "Program ": "BBI",
+        "Year": "2"
+    },
+    {
+        "Name": "Yeshi Wangdi ",
+        "Student ID": "3220309",
+        "Email ID": "03220309.gcbs@rub.edu.bt",
+        "CID": "11107006307",
+        "Program ": "B.com accounting ",
+        "Year": "3"
+    },
+    {
+        "Name": "Rabzin Yesel Eden ",
+        "Student ID": "3240304",
+        "Email ID": "03240304.gcbs@rub.edu.bt",
+        "CID": "10209001936",
+        "Program ": "BMDC",
+        "Year": "1"
+    },
+    {
+        "Name": "Jamyang Pelzin Eden",
+        "Student ID": "3230079",
+        "Email ID": "03230079.gcbs@rub.edu.bt",
+        "CID": "10209001509",
+        "Program ": "BMDC",
+        "Year": "2"
+    },
+    {
+        "Name": "Phurba Wangdi Tamang ",
+        "Student ID": "3240302",
+        "Email ID": "03240302.gcbs@rub.edu.bt",
+        "CID": "10308002346",
+        "Program ": "BMDC ",
+        "Year": "1"
+    },
+    {
+        "Name": "Choki wangmo ",
+        "Student ID": "3240281",
+        "Email ID": "03240281.gcbs@rub.edu.bt",
+        "CID": "11906001506",
+        "Program ": "BMDC",
+        "Year": "1"
+    },
+    {
+        "Name": "Rinzin Dorji",
+        "Student ID": "3240306",
+        "Email ID": "03240306.gcbs@rub.edu.bt",
+        "CID": "10104000166",
+        "Program ": "BMDC",
+        "Year": "1"
+    },
+    {
+        "Name": "Pelden Lhamo",
+        "Student ID": "3240298",
+        "Email ID": "03240298.gcbs@rub.edu.bt",
+        "CID": "10901001707",
+        "Program ": "BMDC",
+        "Year": "1"
+    },
+    {
+        "Name": "pema singye wangchuk ",
+        "Student ID": "3240301",
+        "Email ID": "33240301gcbs@rub.edu.bt",
+        "CID": "1150404819",
+        "Program ": "BMDC",
+        "Year": "1"
+    },
+    {
+        "Name": "Damcho Dema",
+        "Student ID": "3240282",
+        "Email ID": "03240282.gcbs@rub.edu.bt",
+        "CID": "11608003302",
+        "Program ": "BMDC",
+        "Year": "1"
+    },
+    {
+        "Name": "Dawa zam",
+        "Student ID": "3230037",
+        "Email ID": "3230037.gcbs@rub.edu.bt",
+        "CID": "11908001676",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Norbu Lhamo",
+        "Student ID": "3230183",
+        "Email ID": "03230183.gcbs@rub.edu.bt",
+        "CID": "10713002959",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Choksem Lhamo ",
+        "Student ID": "3230031",
+        "Email ID": "03230031.gcbs@rub.edu.bt",
+        "CID": "11303004044",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Pema Dechen ",
+        "Student ID": "3130199",
+        "Email ID": "03230199.gcbs@rub.edu.b",
+        "CID": "10606002607",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Kuenley Yangzom ",
+        "Student ID": "3230142",
+        "Email ID": "03230142.gcbs@rub.edu.bt",
+        "CID": "11407002642",
+        "Program ": "BBM",
+        "Year": "2"
+    },
+    {
+        "Name": "Hema Luitel ",
+        "Student ID": "3230070",
+        "Email ID": "03230070.gcbs@rub.edu.bt",
+        "CID": "11308000826",
+        "Program ": "BBI",
+        "Year": "2"
+    },
+    {
+        "Name": "Deki choden",
+        "Student ID": "3230049",
+        "Email ID": "03230049.gcbs@rub.edu.bt",
+        "CID": "11512005317",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Sonam Yangzom",
+        "Student ID": "3240416",
+        "Email ID": "03240416.gcbs@rub.edu.bt",
+        "CID": "11303003677",
+        "Program ": "BBI",
+        "Year": "1"
+    },
+    {
+        "Name": "Lhamyang Dema",
+        "Student ID": "3230157",
+        "Email ID": "3230157.gcbs@rub.edu.bt",
+        "CID": "10104001135",
+        "Program ": "BBI",
+        "Year": "2"
+    },
+    {
+        "Name": "Ugyen Tshomo ",
+        "Student ID": "3230406",
+        "Email ID": "03230406.gcbs@rub.edu.bt ",
+        "CID": "10708003356",
+        "Program ": "BFE",
+        "Year": "2"
+    },
+    {
+        "Name": "Pema Choden ",
+        "Student ID": "3230197",
+        "Email ID": "03230197.gcbs@rub.edu.bt ",
+        "CID": "10602002042",
+        "Program ": "BBI",
+        "Year": "2"
+    }
+]
