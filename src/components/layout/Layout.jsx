@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import logo from '../../assets/image/logo.png';
 
 const Layout = () => {
-  const { user, signOut } = useAuth();
+  const { user, signOut, loading } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -38,7 +38,40 @@ const Layout = () => {
     }
   }, [location]);
 
-  // If there's no user, we shouldn't render the layout
+  // Show loading state while checking authentication
+  if (loading) {
+    console.log("Loading...");
+    return (
+      <div className="min-h-screen bg-[var(--color-primary-50)] flex items-center justify-center">
+        <div className="text-center space-y-6">
+          <div className="relative">
+            {/* Outer spinning ring */}
+            <div className="absolute inset-0 animate-spin rounded-full border-4 border-[var(--color-primary-200)] border-t-[var(--color-primary-500)] h-24 w-24"></div>
+            {/* Inner pulsing circle */}
+            <div className="absolute inset-4 animate-pulse rounded-full bg-[var(--color-primary-100)]"></div>
+            {/* Logo in center */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <img 
+                src={logo} 
+                alt="GEDU Scheduler Logo" 
+                className="h-12 w-auto animate-bounce"
+              />
+            </div>
+          </div>
+          <div className="space-y-2">
+            <p className="text-lg font-medium text-[var(--color-primary-700)] animate-pulse">
+              Loading GEDU Scheduler
+            </p>
+            <p className="text-sm text-[var(--color-primary-500)]">
+              Please wait while we prepare your dashboard...
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // If there's no user, redirect to login
   if (!user) {
     return <Navigate to="/login" replace />;
   }
