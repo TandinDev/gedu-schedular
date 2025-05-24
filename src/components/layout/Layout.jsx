@@ -1,9 +1,15 @@
-import { Outlet, useNavigate, Navigate, useLocation } from 'react-router-dom';
-import { useAuth } from '../../hooks/useAuth';
-import { HomeIcon, CalendarIcon, UserIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import logo from '../../assets/image/logo.png';
+import { Outlet, useNavigate, Navigate, useLocation } from "react-router-dom";
+import { useAuth } from "../../hooks/useAuth";
+import {
+  HomeIcon,
+  CalendarIcon,
+  UserIcon,
+  Bars3Icon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import logo from "../../assets/image/logo.png";
 
 const Layout = () => {
   const { user, signOut, loading } = useAuth();
@@ -25,10 +31,10 @@ const Layout = () => {
     handleResize();
 
     // Add event listener
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Cleanup
-    return () => window.removeEventListener('resize', handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   // Close sidebar on mobile when route changes
@@ -40,20 +46,15 @@ const Layout = () => {
 
   // Show loading state while checking authentication
   if (loading) {
-    console.log("Loading...");
     return (
       <div className="min-h-screen bg-[var(--color-primary-50)] flex items-center justify-center">
         <div className="text-center space-y-6">
           <div className="relative">
-            {/* Outer spinning ring */}
-            <div className="absolute inset-0 animate-spin rounded-full border-4 border-[var(--color-primary-200)] border-t-[var(--color-primary-500)] h-24 w-24"></div>
-            {/* Inner pulsing circle */}
-            <div className="absolute inset-4 animate-pulse rounded-full bg-[var(--color-primary-100)]"></div>
             {/* Logo in center */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <img 
-                src={logo} 
-                alt="GEDU Scheduler Logo" 
+              <img
+                src={logo}
+                alt="GEDU Scheduler Logo"
                 className="h-12 w-auto animate-bounce"
               />
             </div>
@@ -78,56 +79,60 @@ const Layout = () => {
 
   const navigation = [
     {
-      name: 'Dashboard',
-      href: user?.role === 'student' ? '/student' : '/lecturer',
+      name: "Dashboard",
+      href: user?.role === "student" ? "/student" : "/lecturer",
       icon: HomeIcon,
     },
-    ...(user?.role === 'lecturer' ? [
-      {
-        name: 'Timetable',
-        href: '/lecturer/timetable',
-        icon: CalendarIcon,
-      },
-      {
-        name: 'Profile',
-        href: '/lecturer/profile',
-        icon: UserIcon,
-      },
-    ] : [
-      {
-        name: 'Profile',
-        href: '/student/profile',
-        icon: UserIcon,
-      },
-    ]),
+    ...(user?.role === "lecturer"
+      ? [
+          {
+            name: "Timetable",
+            href: "/lecturer/timetable",
+            icon: CalendarIcon,
+          },
+          {
+            name: "Profile",
+            href: "/lecturer/profile",
+            icon: UserIcon,
+          },
+        ]
+      : [
+          {
+            name: "Profile",
+            href: "/student/profile",
+            icon: UserIcon,
+          },
+        ]),
   ];
 
   const handleLogout = () => {
     signOut();
-    navigate('/login');
+    navigate("/login");
   };
 
   return (
     <div className="min-h-screen bg-[var(--color-primary-50)]">
       {/* Mobile Sidebar Overlay */}
       {isSidebarOpen && (
-        <div 
+        <div
           className="fixed inset-0 bg-gray-900/50 backdrop-blur-sm z-20 md:hidden"
           onClick={() => setIsSidebarOpen(false)}
         />
       )}
 
       {/* Sidebar */}
-      <div className={`fixed inset-y-0 left-0 z-30 w-64 bg-white shadow-lg transform transition-transform duration-200 ease-in-out ${
-        isSidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
-      }`}>
+      <div
+        className={`fixed inset-y-0 left-0 z-30 w-64 bg-white shadow-lg transform transition-transform duration-200 ease-in-out ${
+          isSidebarOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
+        }`}
+      >
         <div className="flex flex-col h-full">
           {/* Logo and Toggle Button */}
           <div className="flex items-center justify-between h-auto min-h-[4rem] px-4 py-3 border-b border-[var(--color-primary-200)]">
             <div className="flex flex-row gap-4 items-center">
-              <img 
-                src={logo} 
-                alt="GEDU Scheduler Logo" 
+              <img
+                src={logo}
+                alt="GEDU Scheduler Logo"
                 className="h-14 w-auto"
               />
               <p className="text-xs text-[var(--color-primary-600)] font-medium leading-tight">
@@ -150,8 +155,8 @@ const Layout = () => {
                 to={item.href}
                 className={`flex items-center px-4 py-2 text-sm font-medium rounded-md ${
                   location.pathname === item.href
-                    ? 'bg-[var(--color-primary-100)] text-[var(--color-primary-900)]'
-                    : 'text-[var(--color-primary-600)] hover:bg-[var(--color-primary-50)] hover:text-[var(--color-primary-900)]'
+                    ? "bg-[var(--color-primary-100)] text-[var(--color-primary-900)]"
+                    : "text-[var(--color-primary-600)] hover:bg-[var(--color-primary-50)] hover:text-[var(--color-primary-900)]"
                 }`}
               >
                 <item.icon className="w-5 h-5 mr-3" />
@@ -173,7 +178,7 @@ const Layout = () => {
                   {user?.name}
                 </p>
                 <p className="text-xs text-[var(--color-primary-500)]">
-                  {user?.role === 'lecturer' ? 'Lecturer' : 'Student'}
+                  {user?.role === "lecturer" ? "Lecturer" : "Student"}
                 </p>
               </div>
             </div>
@@ -188,9 +193,11 @@ const Layout = () => {
       </div>
 
       {/* Main Content */}
-      <div className={`transition-all duration-200 ease-in-out ${
-        isSidebarOpen ? 'md:pl-64' : 'pl-0'
-      }`}>
+      <div
+        className={`transition-all duration-200 ease-in-out ${
+          isSidebarOpen ? "md:pl-64" : "pl-0"
+        }`}
+      >
         {/* Mobile Header */}
         <div className="sticky top-0 z-10 bg-white border-b border-[var(--color-primary-200)] md:hidden">
           <div className="flex items-center justify-between h-auto min-h-[4rem] px-4 py-2">
@@ -201,9 +208,9 @@ const Layout = () => {
               <Bars3Icon className="w-6 h-6" />
             </button>
             <div className="flex flex-col items-center">
-              <img 
-                src={logo} 
-                alt="GEDU Scheduler Logo" 
+              <img
+                src={logo}
+                alt="GEDU Scheduler Logo"
                 className="h-14 w-auto mb-1"
               />
               <p className="text-xs text-[var(--color-primary-600)] font-medium leading-tight text-center">
@@ -222,4 +229,4 @@ const Layout = () => {
   );
 };
 
-export default Layout; 
+export default Layout;
